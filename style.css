@@ -128,7 +128,27 @@ footer {
   }
 }
 
+#music-btn-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
 
+#play-music-btn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background: #00aaff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
 
 
 /* Responsividade para telas pequenas */
