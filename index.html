@@ -52,10 +52,7 @@
     </div>
   </section>
   <footer>
-    <audio id="bg-music" src="musica/Hamilton De Holanda - Te Faço Um Cafuné (Ao Vivo).mp3" loop autoplay></audio>
-    <div id="music-btn-container">
-      <button id="play-music-btn">Tocar Música 🎵</button>
-    </div>
+
   </footer>
   <script>
     let index = 1;
@@ -84,15 +81,6 @@
         }, 5000);
       }
       setInterval(createHeart, 100);
-          
-        const playBtn = document.getElementById('play-music-btn');
-  const audio = document.getElementById('bg-music');
-
-  playBtn.addEventListener('click', () => {
-    audio.currentTime = 113; // começa a tocar a partir de 1m53s
-    audio.play();
-    playBtn.style.display = 'none'; // oculta o botão após tocar
-  });
     </script>
   </body>
 </html>
