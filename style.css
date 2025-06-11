@@ -140,6 +140,10 @@ footer {
     width: 12px;
   }
 
+  .nav-dots {
+    margin-left: -15px;
+  }
+
   .slider li:nth-child(1) label { left: 20px; }
   .slider li:nth-child(2) label { left: 50px; }
   .slider li:nth-child(3) label { left: 80px; }
