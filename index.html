@@ -54,20 +54,20 @@
   <footer>
 
   </footer>
-  <script>
-    let index = 1;
-    const caroussel = document.getElementById('caroussel');
-    const totalSlides = caroussel.querySelectorAll('input[type="radio"]').length;
+    <script>
+      let index = 1;
+      const caroussel = document.getElementById('caroussel');
+      const totalSlides = caroussel.querySelectorAll('input[type="radio"]').length;
 
-    setInterval(() => {
-      const slide = document.getElementById('slide' + index);
-      if (slide) {
-        slide.checked = true;
-      }
-      index++;
-      if (index > totalSlides) index = 1;
-    }, 4000);
-    function createHeart() {
+      setInterval(() => {
+        const slide = document.getElementById('slide' + index);
+        if (slide) {
+          slide.checked = true;
+        }
+        index++;
+        if (index > totalSlides) index = 1;
+      }, 4000);
+      function createHeart() {
         const heart = document.createElement('div');
         heart.classList.add('heart');
         heart.textContent = '💙';
